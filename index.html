@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstaGram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="create.css">
+    <link rel="stylesheet" href="dotclick.css">
+    <link rel="stylesheet" href="activity.css">
+</head>
+<body>
+    <header>
+<div class="head">
+    <img src="images/photo-camera.png" alt="camera">
+    <h2>Instagram</h2>
+    <img src="images/send.png" alt="send">
+</div>
+    </header>
+    <main>
+<section id="mainstory" ><div id="stories">
+    
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+     </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div>
+    <div class="story">
+        <img src="images/photo-camera.png" alt="">
+    </div> 
+</div>
+
+</section>
+
+<section id="posts">
+
+
+
+
+
+
+
+
+
+<div class="post">
+
+
+
+    <div class="posthead">
+        <div class="inposthead">
+    <img src="images/photo-camera.png" alt="">
+    <p class="accholder">JAMES</p>
+</div>
+    <div onclick="doton()" id="threedot" class="dots">
+        ...
+    </div>
+</div>
+
+<div class="postimg">
+    <img src="images/photo-camera.png" alt="">
+</div>
+
+
+<div class="postrew">
+    <div class="review">
+        <div class="firstreview">
+            <img id="heart" src="images/heart.png" alt="">
+            <img src="images/bubble-chat.png" alt="">
+            <img src="images/send.png" alt="">
+        </div>
+        <div class="save">
+            <img src="images/save-instagram.png" alt="">
+        </div>
+    </div>
+    <div class="likes">
+     <span  id="like" >0</span> likes
+    </div>
+    
+    <div class="discription">
+        <strong>James </strong>Lorem ipsum dolor sit amet.lorem
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+    
+    </div>
+    
+    
+    
+    <div class="comments">view all 621 comments</div>
+    
+    <div class="time">6 DAYS AGO</div>
+</div>
+
+
+</div> 
+
+
+
+</section>
+
+
+
+<div class="dotclick" id="choose">
+    <ul>
+        <li class="red">Report</li> 
+        <li id="follow" class="red">Unfollow</li> 
+        <li>Go to post</li> 
+        <li>Share to...</li> 
+        <li>Copy link</li> 
+        <li>Embed</li> 
+        <li onclick="dotoff()" >Cancel</li> 
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+<section id="create">
+
+    <div class="top">
+        <div class="head">
+            <img  onclick="cancelpost()" src="images/back.png" id="cancelpost" alt="cancel" style="width: 20px;">
+            <h5 id="newpost" >New post</h5>
+            <div id="share" onclick="hello()" >Share</div>
+        </div>
+<div>
+
+<div class="inputcon">
+<div id="selected" class="imginput">
+    <input type="file" name="" id="userimg">
+</div>
+<div class="inputdis">
+    <textarea name="" placeholder="Write a Caption...  " id="userdis"></textarea>
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="addlocation">
+    <p>Add location</p>
+    <img src="images/back.png" alt="">
+</div>
+<div class="addlocation">
+    <p>Tag People</p>
+    <img src="images/back.png" alt="">
+</div>
+</section>
+
+
+<section id="activities" class="activity">
+    <div class="head act">
+        <img  onclick="cancelactivity()" src="images/back.png" id="cancelpost" alt="cancel" style="width: 20px;">
+        <h5 id="newpost" >Activity</h5>
+        <div id="share" ></div>
+    </div>
+    
+    <div class="followreq">
+        <div>Follow request</div>
+    </div>
+    <div class="sugess">
+<div class="suggested">
+    <div>
+        <img src="imgs/2.jpg" alt="">
+        <p>james</p>
+    </div>
+    <button>
+        Follow
+    </button>
+</div>
+<div class="suggested">
+    <div>
+        <img src="imgs/2.jpg" alt="">
+        <p>james</p>
+    </div>
+    <button>
+        Follow
+    </button>
+</div>
+<div class="suggested">
+    <div>
+        <img src="imgs/2.jpg" alt="">
+        <p>james</p>
+    </div>
+    <button>
+        Follow
+    </button>
+</div>
+
+
+
+    </div>
+    </section>
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <img src="images/homepage.png" alt="">
+        <img src="images/search-interface-symbol.png" alt="">
+    <img src="images/more.png" alt="" id="addpost">
+      <img onclick="openactivity()" src="images/heart.png" alt="">
+        <img id="user" src="images/photo-camera.png" alt="">
+    </footer>
+
+
+<script src="source.js"></script>
+<script src="post.js"></script>
+</body>
+</html>
+
